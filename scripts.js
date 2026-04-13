@@ -30,7 +30,7 @@ async function cliqueiNoBotao() {
 
 
     let respostaServidor = await fetch(
-`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=SUA_API_KEY&units=metric&lang=pt_br`
+`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=ebf6c5a14d1e47ecb69a99403c998775&units=metric&lang=pt_br`
 )
     let dadosJson = await respostaServidor.json()
 
