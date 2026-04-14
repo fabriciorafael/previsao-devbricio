@@ -67,7 +67,7 @@ async function pedirSugestaoRoupa() {
 
 
 
-    let resposta = await fetch("http://localhost:3000/ia", {
+    let resposta = await fetch("https://clima-backend-evod.onrender.com/ia", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
